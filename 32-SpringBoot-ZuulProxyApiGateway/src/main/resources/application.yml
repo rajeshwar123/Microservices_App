@@ -1,0 +1,23 @@
+server:
+  port: 5599
+
+  
+  
+spring:
+  application:
+    name: API-GATEWAY
+    
+zuul:
+  prefix: /api 
+  routes:
+    exchange: 
+      path: /exchangeapi/**
+      service-id: CURRENCY-EXCHANGE-API    
+    conversion:
+      path: /conversionapi/**
+      service-id: CURRENCY-CONVERSION-API
+    ccappui:
+      path: /ccui/**
+      service-id: CURRENCY-CONVERSION-UI-API
+        
+      
