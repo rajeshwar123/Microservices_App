@@ -1,0 +1,22 @@
+server:
+  port: 1111
+  
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: null
+      
+  application:
+    name: CURRENCY-EXCHANGE-API
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111
+        
+management:
+  endpoints:
+    web:
+      exposure:
+        include: /*                    

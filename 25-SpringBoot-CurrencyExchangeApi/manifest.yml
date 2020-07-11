@@ -1,0 +1,10 @@
+applications:
+- name: godwe1
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  path: target/25-SpringBoot-CurrencyExchangeApi-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  routes:
+  - route: godwe1.cfapps.io
+  stack: cflinuxfs3
