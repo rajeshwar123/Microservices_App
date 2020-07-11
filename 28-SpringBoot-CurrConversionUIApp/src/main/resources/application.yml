@@ -1,0 +1,9 @@
+server:
+  port: 6554
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+  application:
+    name: CURRENCY-CONVERSION-UI-API

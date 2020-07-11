@@ -1,0 +1,10 @@
+applications:
+- name: uiapp
+  disk_quota: 1G
+  instances: 1
+  path: target/SpringBoot-CurrencyConversionUIApi.war
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  memory: 1G
+  routes:
+  - route: uiapp.cfapps.io
+  stack: cflinuxfs3

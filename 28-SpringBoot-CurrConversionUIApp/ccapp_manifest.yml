@@ -1,0 +1,8 @@
+applications:
+- name: ccapp
+  disk_quota: 700M
+  instances: 1
+  memory: 700M
+  routes:
+  - route: ccapp.cfapps.io
+  stack: cflinuxfs3
