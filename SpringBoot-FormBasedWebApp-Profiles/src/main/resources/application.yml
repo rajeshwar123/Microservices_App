@@ -1,0 +1,19 @@
+#configure port
+server:
+  port: 7070
+
+#configure View Resolver
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+#profiles cofiguration
+  profiles:
+    active: dit
+    
+#messages configuration
+userapp: 
+   messages: 
+      sucessmsg: User Registration Successfull.
+      failuermsg: User Registration Failed.

@@ -1,0 +1,12 @@
+SQL> desc  USER_SIGN_UP_DTLS;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ USER_ID                                            NUMBER(30)
+ FIRST_NAME                                         VARCHAR2(30)
+ LAST_NAME          5983                            VARCHAR2(30)
+ MOB_NO                                             NUMBER(10)
+ DOB                                                DATE
+ EMAIL                                              VARCHAR2(30)
+ ACCOUNT_STATUS                                     VARCHAR2(20)
+ ROLE                                               VARCHAR2(30)
+ PASSWORD                                           VARCHAR2(30)

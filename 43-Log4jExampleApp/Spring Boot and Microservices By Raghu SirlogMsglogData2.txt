@@ -1,0 +1,4 @@
+2020-06-19 13:43:22,226 INFO main com.rg.log4jex.LogApp2 FROM INFO 
+2020-06-19 13:43:22,226 WARN main com.rg.log4jex.LogApp2 FROM WARN 
+2020-06-19 13:43:22,226 ERROR main com.rg.log4jex.LogApp2 FROM ERROR 
+2020-06-19 13:43:22,226 FATAL main com.rg.log4jex.LogApp2 FROM FATAL 

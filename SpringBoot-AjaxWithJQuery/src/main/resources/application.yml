@@ -1,0 +1,22 @@
+#server port cfgs
+server:
+  port: 7575
+  
+#view Resolver cfgs  
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+
+#Database cfgs
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: scott
+    password: tiger
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true  
+    

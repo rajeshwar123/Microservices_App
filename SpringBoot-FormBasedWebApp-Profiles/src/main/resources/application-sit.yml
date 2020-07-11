@@ -1,0 +1,11 @@
+#configure port
+server:
+  port: 7070
+
+#configure View Resolver
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+

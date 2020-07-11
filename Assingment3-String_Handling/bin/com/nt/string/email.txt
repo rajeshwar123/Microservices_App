@@ -1,0 +1,5 @@
+Hi {FIRSTNAME} {LASTNAME}, <br>
+welcome to ATS. Your registration almost completed.
+Please unlock your account using below link. <br> 
+This is your Temporary password :: {password}<br>
+<a href="http://localhost:9091/atps/unlock?email={email}">Click here to unlock your account</a>
