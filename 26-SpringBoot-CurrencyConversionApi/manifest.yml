@@ -1,0 +1,10 @@
+applications:
+- name: ccapp
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  path: target/SpringBoot-CurrencyConversionApi.war
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  routes:
+  - route: ccapp.cfapps.io
+  stack: cflinuxfs3

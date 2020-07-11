@@ -1,0 +1,15 @@
+server:
+  port: 9636
+
+  
+#View Resolver cfgs
+
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+      
+      
+  application:
+    name: CURRENCY-CONVERSION-API
